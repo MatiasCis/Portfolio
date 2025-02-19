@@ -1,0 +1,19 @@
+
+.loader {
+  width: 64px;
+  height: 64px;
+  border: 8px solid transparent; /* Borde transparente */
+  border-top: 8px solid #ffffff; /* Color del borde que gira */
+  border-radius: 50%;
+  animation: spin 1s linear infinite; /* Animación continua */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
