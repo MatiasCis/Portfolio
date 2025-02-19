@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-blue-600 text-white;
+  @apply bg-gray-800 text-white;
 }
 
 /* Estilos del scrollbar */
